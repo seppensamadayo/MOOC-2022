@@ -1,0 +1,8 @@
+limit = int(input("Upper limit: "))
+base= int(input("Base:"))
+i=1
+print(i)
+i=base
+while i <= limit:
+    print(i)
+    i *= int(base)
